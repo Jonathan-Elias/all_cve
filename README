@@ -1,0 +1,6 @@
+git clone https://github.com/Jonathan-Elias/all_cve
+
+Dê permissão de execução para os scripts chmod +x download_cve.py search_cve.py e execute o python3 download_cve.py, o mesmo irá efetuar o download do arquivo main.zip e descompartar
+Após modifique no script search_cve.py o diretório em que foi descompactado o arquivo main.zip
+Não será necessário colocar o path absoluto, basta inserir até */cve/cvelistV5-main/cves, pois o script irá executar buscas por arquivos json em pastas e subpastas
+Por fim, execute o script python3 search_cve.py, será solicitado uma entrada de busca, samba, apache, nginx, vmware, ao até mesmo uma determinada versão 2.4.47, 5.819.09, qualquer entrada de busca para qualquer aplicação
